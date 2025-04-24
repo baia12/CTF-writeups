@@ -1,5 +1,5 @@
-# 🎁 Angpow Forensics - CTF Challenge Write-Up
-
+# 🎁 Angpow  CTF Challenge Write-Up
+![Angpow Example](images/angpow-sample.jpg)
 ## 📖 Challenge Description
 
 Happy Chinese New Year to all participants!
