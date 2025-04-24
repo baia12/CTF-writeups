@@ -1,5 +1,8 @@
 # 🎁 Angpow  CTF Challenge Write-Up
-![Angpow Example](2025/SKR CTF/Happy CNY!/desc.jpg)
+<p align="center">
+  <img src="desc.png" alt="Alt text" width="200"/>
+</p>
+
 ## 📖 Challenge Description
 
 Happy Chinese New Year to all participants!
@@ -24,17 +27,57 @@ I discovered that only specific image sizes translated to money values, accordin
 
 
 ## 🛠️ The Script
-
-We wrote a Python script to:
+SO to ease doing the counting I wrote the python script
 - Traverse each `AngpowX` folder
 - Read the size of each image
 - Match the size to the corresponding RM value
 - Calculate the **total RM value per folder**
 
-👉 [See the full script here](#) (link your script if public)
+Here's the script.
+
+```python
+import os
+import math
+
+base_path = r"C:\Angpows"
+
+size_to_rm = {
+    120: 50,
+    108: 20,
+    113: 10,
+    130: 1,
+    123: 5
+}
+
+def get_image_size_in_kb(image_path):
+    if os.path.isfile(image_path):
+        size_bytes = os.path.getsize(image_path)
+        size_kb = size_bytes / 1024
+        return math.ceil(size_kb)
+    return None
+
+for i in range(1, 41):
+    folder_name = f"Angpow{i}"
+    folder_path = os.path.join(base_path, folder_name)
+    total_money = 0
+
+    for j in range(1, 5):
+        image_name = f"{j}.jpg"
+        image_path = os.path.join(folder_path, image_name)
+
+        size_kb = get_image_size_in_kb(image_path)
+        if size_kb is not None:
+            rm_value = size_to_rm.get(size_kb)
+            if rm_value:
+                total_money += rm_value
+
+       print(f"{total_money}",end=' ')
+#output =83 75 82 123 71 48 78 71 95 88 73 95 72 85 52 84 95 67 72 48 49 95 88 73 78 95 78 73 52 78 95 75 85 52 73 95 76 51 33 125
+```
+
+
 
 ## 💰 Final Output
-
-Here’s the **total RM found in each folder**:
+So we get the final otput in decimal so we need to decode it and we get the flag hohohohoh
 
 
