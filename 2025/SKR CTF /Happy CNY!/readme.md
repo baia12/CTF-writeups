@@ -1,5 +1,5 @@
 # 🎁 Angpow  CTF Challenge Write-Up
-![Angpow Example](desc.jpg)
+![Angpow Example](2025/SKR CTF/Happy CNY!/desc.jpg)
 ## 📖 Challenge Description
 
 Happy Chinese New Year to all participants!
