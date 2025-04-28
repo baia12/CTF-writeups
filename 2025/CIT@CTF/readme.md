@@ -1,7 +1,7 @@
 <p align="center">
   <img src="desc.png" alt="Alt text" width="300"/>
 </p>
-#🏴‍☠️ CTF@CIT 2025 Write-Up
+#🏴‍☠️ CTF@CIT 2025 Write-Up (25/4-27/4/25)
 
 ## 📋 Overview
 
