@@ -77,12 +77,12 @@ check_key:
 00407fea        return __stack_chk_fail()
 ```
 
-This function checks if the input is exactly 16 charecters long, starts with "KEY_", and that charecters 5-16 are alphanumerical. If the input passes all these conditions, the flag is given. A input that fits these conditions is `KEY_ABCDEFGHIJKL` (chatGpt hihhihihihi make this statement )
+This function checks if the input is exactly 16 charecters long, starts with "KEY_", and that charecters 5-16 are alphanumerical. If the input passes all these conditions, the flag is given. A input that fits these conditions is `KEY_QWERTYUIOPAS` (chatGpt hihhihihihi make this statement ) Basically you can put any key as long as it past the condition
 
 ```bash
 ┌──(kali㉿kali)-[~/Downloads]
 └─$ ./babykeygen
-Enter key: KEY_ABCDEFGHIJKL
+Enter key: KEY_QWERTYUIOPAS
 CIT{41jN8BKzz388}
 ```
 
