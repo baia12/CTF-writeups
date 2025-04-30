@@ -4,6 +4,7 @@ I didn't strip this one you're welcome
 Flag Format: CIT{example_flag}
 
 ## Solution
+this challenge tookme almost two hour (skill issue)
 
 Opening up the binary in BinaryNinja, I navigate to the main function:
 
@@ -76,10 +77,10 @@ check_key:
 00407fea        return __stack_chk_fail()
 ```
 
-This function checks if the input is exactly 16 charecters long, starts with "KEY_", and that charecters 5-16 are alphanumerical. If the input passes all these conditions, the flag is given. A input that fits these conditions is `KEY_ABCDEFGHIJKL`
+This function checks if the input is exactly 16 charecters long, starts with "KEY_", and that charecters 5-16 are alphanumerical. If the input passes all these conditions, the flag is given. A input that fits these conditions is `KEY_ABCDEFGHIJKL` (chatGpt hihhihihihi make this statement )
 
 ```bash
-┌──(dev㉿dev)-[~/Downloads]
+┌──(kali㉿kali)-[~/Downloads]
 └─$ ./babykeygen
 Enter key: KEY_ABCDEFGHIJKL
 CIT{41jN8BKzz388}
