@@ -6,7 +6,7 @@ What is Anthony McConnolly's favorite domain registrar?
 Googling this individuals name, we find a [LinkedIn page](https://www.linkedin.com/in/anthony-mcconnolly-b9110a351/). On this LinkedIn page, a post can be found:
 
 <p align="center">
-  <img src="linked.png" alt="Alt text" width="200"/>
+  <img src="linkedin.png" alt="Alt text" width="200"/>
 </p>
 
 Running a quick [who.is](https://who.is/whois/ippsec.rocks) search on the domain `ippsec.rocks`, we find that the domain is registered with GoDaddy.
