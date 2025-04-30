@@ -13,7 +13,7 @@ The given png file is corrupted. This suggests that there is an issue with the h
  Looking up the magic numbers for jpeg (jfif) files, I find that it is `FF D8 FF E0 00 10 4A 46
 49 46 00 01`. This should be the starting of the hex in this file, but it is not. Correcting this error, and saving the new flag, then opening the image allows you to view the flag. 
 
-![flag](lost.jpeg)
+![flag](recoverflag.jpg)
 
 FLAG: `CIT{us1ng_m4gic_1t_s33m5}`
 
