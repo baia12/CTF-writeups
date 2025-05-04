@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="rider.png" alt="Alt text" width="1000"/>
+  <img src="rider.png" alt="Alt text" width="300"/>
 </p>
 
 
