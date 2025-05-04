@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="power.jpg" alt="Alt text" width="1000"/>
+  <img src="power.jpg" alt="Alt text" width="200"/>
 </p>
 
 
