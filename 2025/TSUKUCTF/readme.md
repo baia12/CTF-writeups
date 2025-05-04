@@ -11,6 +11,6 @@ This CTF was conducted in Japanese 🇯🇵, which added an extra layer of chall
 Since I was a bit busy this week, I only had time to focus on the **OSINT** challenges — but I still learned a lot and had a great time participating.
 
 <p align="center">
-  <img src="desc.png" alt="Alt text" width="1000"/>
+  <img src="Screenshot 2025-05-04 145551.png" alt="Alt text" width="1000"/>
 </p>
 
