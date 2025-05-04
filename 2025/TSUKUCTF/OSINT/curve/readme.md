@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="curve.jpg" alt="Alt text" width="500"/>
+  <img src="curve.jpg" alt="Alt text" width="400"/>
 </p>
 
 
