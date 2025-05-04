@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="schnee.jpg" alt="Alt text" width="500"/>
+  <img src="schnee.jpg" alt="Alt text" width="300"/>
 </p>
 
 
@@ -8,14 +8,9 @@
 >例: TsukuCTF25{12.345_123.456}
 
 ## Translation:
-I’ve felt the power.
-
-The flag format is TsukuCTF25{latitude_longitude} of the location where this person is standing. Note that the latitude and longitude are rounded down to five decimal places.
+I have arrived at a wonderful snowy mountain! I rented a snowboard and I'm ready to snowboard! Please write the coordinates of the photo location in the flag format by rounding the fourth decimal place and specifying up to the third decimal place in the format TsukuCTF25{latitude_longitude}. Example: TsukuCTF25{12.345_123.456}
 
 ## Solution:
-
-Looking at the image, it is tactile map of someplace in Japan( as the image contains a japanese character). It contains a braille etched metal plate.
-
 Used Google lens on the image,it provide location the mountain at grindelwald. I notice the banner write *buri Sport* After that
 I use google maps and search Buri Sport Grindelwald and got multi branch.looking outside the branch and found the similar place. Got the coordinated, rounded them.
 
